@@ -57,7 +57,7 @@ nav ul {
 
   padding: 1vh;
 
-  margin: 1rem 25vw 1rem 25vw;
+  margin: 1rem 20vw 1rem 20vw;
 }
 
 nav ul li,
@@ -65,7 +65,7 @@ h1 {
   margin: 1vh;
   padding: 1vh;
   flex-grow: 1;
-  flex-basis: 5rem;
+  flex-basis: 1rem;
   font-size: 2.5rem;
   text-align: center;
 
@@ -141,7 +141,8 @@ button {
   padding: 0rem;
 }
 
-.sections-container section {
+.sections-container section,
+.gallery {
   /* Remove below */
   background-color: rgb(191, 183, 138);
 
@@ -218,4 +219,24 @@ button {
   font-size: calc(10px + 1.4vw);
   line-height: 5rem;
   padding: 0rem 10rem 10vw 10rem;
+}
+
+/* Image Gallery?? styling */
+
+.gallery {
+  display: flex;
+  margin: 0rem 5vh 10vh 5vh;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.gallery img {
+  float: left;
+  text-align: center;
+
+  width: calc(25px + 20vw);
+  height: calc(25px + 20vw);
+  object-fit: cover;
+  margin: 2rem;
 }
