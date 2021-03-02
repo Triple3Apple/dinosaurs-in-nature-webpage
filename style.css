@@ -89,7 +89,7 @@ nav ul li {
 /* Hero Styling */
 .hero {
   min-height: 75vh;
-  background-image: url("/img/pexels-vlad-fonsark-dino-street.jpg");
+  background-image: url("./img/pexels-vlad-fonsark-dino-street.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
